@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "crud api"
+version = "0.1.0"
+description = ""
+authors = ["Thiago Silva Farias <thiago_protect@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.30"
+pydantic = {extras = ["email"], version = "^2.7.4"}
+python-dotenv = "^1.0.1"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+streamlit = "^1.35.0"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
