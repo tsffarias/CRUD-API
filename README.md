@@ -1,4 +1,4 @@
-<h1 align="center">📊 Projeto CRUD com FastAPI, PostgreSQL e Streamlit</h1> 
+<h1 align="center">Projeto CRUD com FastAPI, PostgreSQL e Streamlit</h1> 
 
 > Este repositório apresenta um exemplo de aplicação CRUD simples utilizando FastAPI para o backend, PostgreSQL como banco de dados e Streamlit para o frontend. A estrutura foi criada para ser um ponto de partida e exemplo para desenvolvedores que desejam construir aplicações web modernas e escaláveis.
 
