@@ -20,11 +20,13 @@ Este projeto é útil para:
 Antes de rodar o Docker, crie um arquivo .env na raiz do projeto com os seguintes valores:
 
 ```
-DB_HOST_PROD=postgres
-DB_PORT_PROD=5432
-DB_NAME_PROD=mydatabase
-DB_USER_PROD=user
-DB_PASS_PROD=password
+DB_HOST_PROD = postgres
+DB_PORT_PROD = 5432
+DB_NAME_PROD = mydatabase
+DB_USER_PROD = user
+DB_PASS_PROD = password
+PGADMIN_EMAIL = email_pgadmin
+PGADMIN_PASSWORD = password_pgadmin
 ```
 
 Para iniciar a aplicação, execute:
